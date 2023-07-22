@@ -1,0 +1,63 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+.bg-image {
+    min-height: 1080px;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 350px;
+    background: white;
+    color: #2d2d2d;
+}
+
+.box h2 {
+    padding: 50px 0 0;
+}
+
+.box h1 {
+    padding: 5px 0;
+}
+
+.box button {
+    background: red;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 5px;
+    width: 250px;
+    border: none;
+}
+
+.box button#save-btn {
+    background: green;
+    margin: 10px 0 0;
+}
+
+.box button#erase-btn {
+    background: blue;
+    margin: 10px 0 0 0;
+}
+
+.box p {
+    margin: 25px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
